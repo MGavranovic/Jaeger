@@ -1,0 +1,97 @@
+/*
+Will have to create variables for the colors used throughout 
+*/
+:root {
+  --main-bg-color: #356600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Mono", monospace;
+  background: var(--main-bg-color);
+}
+
+.container {
+  display: flex;
+}
+
+.container-form-login {
+  height: 100vh;
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  background: white;
+}
+
+.form-login {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-title {
+  font-weight: 500px;
+  font-size: 45px;
+}
+
+.form-motto {
+  font-size: 20px;
+}
+
+.form-label {
+  font-size: 16px;
+}
+
+.form-input {
+  width: 20rem;
+  height: 2rem;
+  border: solid 1px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.form-input:focus {
+  outline: solid 1px var(--main-bg-color);
+}
+
+.form-login-button {
+  margin-top: 5px;
+  width: 20rem;
+  height: 2rem;
+  border-radius: 4px;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 15px;
+  background: white;
+}
+
+.form-login-button:hover {
+  cursor: pointer;
+  background: var(--main-bg-color);
+  color: white;
+  transition: ease-in-out 0.3s;
+}
+
+.container-welcome {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40vw;
+  gap: 10px;
+  color: white;
+}
