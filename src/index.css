@@ -17,7 +17,7 @@ body {
   height: 100%;
 }
 
-.container {
+.container-login {
   display: flex;
 }
 
@@ -28,22 +28,23 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 20px;
   background: white;
 }
 
 .form-login {
-  height: 70vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 10px;
+  margin-bottom: 16vh;
 }
 
 .form-title {
   font-weight: 500px;
   font-size: 45px;
+  margin-top: 5vh;
 }
 
 .form-motto {

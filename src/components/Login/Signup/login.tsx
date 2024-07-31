@@ -2,7 +2,7 @@ import Description from "./description";
 
 function LogIn() {
   return (
-    <div className="container">
+    <div className="container-login">
       <div className="container-form-login">
         <h1 className="form-title">Jaeger</h1>
         <p className="form-motto">Track. Hunt. Find.</p>
