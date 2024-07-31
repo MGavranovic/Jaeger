@@ -3,6 +3,7 @@ Will have to create variables for the colors used throughout
 */
 :root {
   --main-bg-color: #356600;
+  --secondary-color: #ff8c1a;
 }
 
 * {
@@ -13,7 +14,7 @@ Will have to create variables for the colors used throughout
 
 body {
   font-family: "DM Mono", monospace;
-  background: var(--main-bg-color);
+  height: 100%;
 }
 
 .container {
@@ -83,8 +84,10 @@ body {
   transition: ease-in-out 0.3s;
 }
 
-.container-welcome {
+.container-description {
+  height: 100vh;
   font-family: "DM Mono", monospace;
+  background: var(--main-bg-color);
   font-weight: 400;
   font-size: 15px;
   display: flex;
@@ -94,4 +97,12 @@ body {
   width: 40vw;
   gap: 10px;
   color: white;
+}
+
+.description-sign-up {
+  color: var(--secondary-color);
+}
+
+.description-title {
+  text-align: center;
 }
