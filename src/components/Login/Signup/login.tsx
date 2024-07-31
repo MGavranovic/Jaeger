@@ -1,3 +1,5 @@
+import Description from "./description";
+
 function LogIn() {
   return (
     <div className="container">
@@ -14,14 +16,7 @@ function LogIn() {
           <button className="form-login-button">Log In</button>
         </form>
       </div>
-      <div className="container-welcome">
-        {/* TODO: add a catchy title */}
-        {/* TODO: add a background image instead of just the color */}
-        <h1>Hello</h1>
-        <p>Trying to find a Job?</p>
-        <p>Hunt for it and keep track of the applications.</p>
-        <p>Keep an eye on potential future opportunities using Jaeger.</p>
-      </div>
+      <Description />
     </div>
   );
 }
